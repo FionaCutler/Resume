@@ -1,72 +1,92 @@
 <!doctype html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="./index.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/1c77342b30.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-  <header >
-      <nav class="navbar navbar-expand-lg bg-primary fixed-top ">
-        <div class="container-fluid">    
-          <a class="navbar-brand" href="#"><i class="fa-solid fa-house"></i></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+  <header>
+    <nav class="navbar navbar-expand-lg bg-primary fixed-top ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><i class="fa-solid fa-house"></i></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-            <li class="nav-item"> 
-                <a href="#about" class="nav-link" aria-current="page">About Me</a>
+            <li class="nav-item">
+              <a href="#about" class="nav-link" aria-current="page">About Me</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link"aria-current="page">Skills</a>
+              <a href="#projects" class="nav-link" aria-current="page">Skills</a>
             </li>
-            <li class="nav-item"> 
-                <a href="#" class="nav-link"aria-current="page">Projects</a>
+            <li class="nav-item">
+              <a href="#" class="nav-link" aria-current="page">Projects</a>
             </li>
-            <li class="nav-item"> 
-                <a href="#" class="nav-link" aria-current="page">Contact</a>
+            <li class="nav-item">
+              <a href="#" class="nav-link" aria-current="page">Contact</a>
             </li>
-            <li class="nav-item"> 
-                <a  href="https://github.com/FionaCutler" class="nav-link" aria-current="page"><i class="fa-brands fa-github" ></i></a>
+            <li class="nav-item">
+              <a href="https://github.com/FionaCutler" class="nav-link" aria-current="page"><i
+                  class="fa-brands fa-github"></i></a>
             </li>
-          </ul>          
+          </ul>
         </div>
-        </div>
-      </nav>
+      </div>
+    </nav>
   </header>
-  <main class="container mt-100">
-    <div class="row vh-100">
-      <div class="col"><img class="img-fluid rounded" src="/fionacutler.jpg" alt="Fiona Cutler"></div>
-      <div class="col d-flex flex-column justify-content-center">
-        <h1 class="display-1">Fiona Cutler</h1>
-        <h6 class="display-6 mb-3">Software Developer</h6>
-        <a class="btn btn-primary me-auto" role="button" href="/FionaResume.pdf">View Resume</a>
+  <main class="mt-100">
+    <div class="container vh-100 d-flex flex-column">
+      <div class="row">
+        <div class="col  my-auto"><img class="img-fluid rounded" src="/fionacutler.jpg" alt="Fiona Cutler"></div>
+        <div class="col my-auto">
+          <h1 class="display-1">Fiona Cutler</h1>
+          <h6 class="display-6 mb-3">Software Developer</h6>
+          <a class="btn btn-primary me-auto" role="button" href="/FionaResume.pdf">View Resume</a>
+        </div>
       </div>
     </div>
-    <div class="row vh-100" id="about">
-    <div class="col d-flex flex-column justify-content-center">
-      <h1 class="display-1">About Me</h1>
-      <p>I graduated Cum Laude in Computer Science at the University of Utah, after getting a full ride scholarship due to strong academic performance in high school. 
-        Over summer, I interned at a local genetics lab, Sorenson Genomics, and got a job there briefly after I graduated.</p>
-      <h5 class="h5">Mind the Gap</h5>
-      <p>You'll likely notice the long gap in my resume, near the end of my education, I started suffering from Conversion Disorder. 
-        The symptoms of this disorder vary wildly, but I personally suffer from paralysis, fatigue, tremors and twitches, and occasionally nonepileptic seizures. 
-        It was debilitating, but after years of progress, I have regained most of the functionality I have, and my symptoms are largely under control. While this has led to a break in my working life, I feel I have experienced a lot of personal growth through the experience.</p>
+    <div class="container vh-100" id="about">
+      <div class="row justify-content-center">
+        <div class="col d-flex flex-column">
+          <h1 class="display-1">About Me</h1>
+          <p>I graduated Cum Laude in Computer Science at the University of Utah, after getting a full ride scholarship
+            due to strong academic performance in high school.
+            Over summer, I interned at a local genetics lab, Sorenson Genomics, and got a job there briefly after I
+            graduated.</p>
+          <h5 class="h5">Why the Gap?</h5>
+          <p>You'll likely notice the long gap in my resume, near the end of my education, I started suffering from
+            Conversion Disorder.
+            The symptoms of this disorder vary wildly, but I personally suffer from paralysis, fatigue, tremors and
+            twitches, and occasionally nonepileptic seizures.
+            It was debilitating, but after years of progress, I have regained most of the functionality I have, and my
+            symptoms are largely under control. While this has led to a break in my working life, I feel I have
+            experienced a lot of personal growth through the experience.</p>
+        </div>
+        <div class="col d-flex flex-column justify-content-center"> <img class="img-fluid rounded" src="/Ulogo.png"
+            alt="The University of Utah"></div>
+      </div>
     </div>
-      <div class="col d-flex flex-column justify-content-center"> <img class="img-fluid rounded" src="/Ulogo.png" alt="The University of Utah"></div>
-    </div>
-    <div class="row justify-content-end">
-      <div class="col-6 ">
+    <div class="container" id="projects">
+      <div class="row">
+        <div class="col-12">
           <h1 class="display-1 ">Projects</h1>
-        </div>  
+        </div>
+      </div>
+      <div class="row">
+        <div class="col"> <!-- Image here--></div>
+        <div class="col"></div>
+      </div>
     </div>
-    <div class="">
-      <div class="col"> <!-- Image here--></div>
-      <div class="col"></div>
-    </div> 
   </main>
 </body>
+
 </html>
