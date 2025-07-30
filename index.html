@@ -57,7 +57,7 @@
     <div class="container vh-100 d-flex" id="about">
       <div class="row">
         <div class="col my-auto">
-          <h1 class="display-1">About Me</h1>
+          <h5 class="display-5">About Me</h5>
           <p>I graduated Cum Laude in Computer Science at the University of Utah, after getting a full ride scholarship
             due to strong academic performance in high school.
             Over summer, I interned at a local genetics lab, Sorenson Genomics, and got a job there after I
@@ -126,31 +126,40 @@
     <div class="container vh-100" id="projects">
       <div class="row">
         <div class="col-12">
-          <h1 class="display-1 ">Projects</h1>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col"> <img class="img-fluid rounded" src="/assets/LegionVis.png" alt="Stanford Legion Vis"> </div>
-        <div class="col">
-          <h6 class="display-6">Stanford Legion Vis</h6>
-          <p>
-            Working in a team in university, we crafted this visualization in D3.js, with a webserver written in Python. 
-            The Stanford Legion Programming system (<a href="https://legion.stanford.edu">https://legion.stanford.edu</a>) is a programming language designed for parallel execution, which makes profiling any program somewhat difficult.
-            This visualization takes profiling data output by the programming system, then displays the results in a more digestible visualization, so developers can diagnose issues. 
-          </p>
+          <h1 class="display-1 ">Class Projects</h1>
         </div>
       </div>
       <div class="row mt-5">
-        <div class="col">           
-          <h6 class="display-6">S</h6>
+        <div class="col-5">
+          <img class="img-fluid rounded" src="/assets/LegionVis.png" alt="PLACEHOLDER">
+        </div>
+        <div class="col-7">           
+          <h6 class="display-6">Machine Learning</h6>
+          <p>For the final project in my machine learning class, I decided to see if an algorithm could identify which heavy metal subgenre an album is, using the cover alone. First, I built a web crawler in Ruby, scraping a website of metal albums for art, title, and the listed subgenres, taking care to practice proper web crawler etiquette, limiting requests as it's a small fan-managed website. 
+            From there, I used OpenCV, a computer vision library in Java, to extract features from the images similar to the Bag of Words model for text.   
+          </p>
+          <p>Finally, I had data with which to run machine learning, so I looked at the literature for appropriate algorithms, as an album can be multiple subgenres, and each individual subgenre is a small fraction. The literature mentioned a variant on support vector machines, and so I implemented it, </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-7">
+          <h6 class="display-6">Data Visualization</h6>
           <p>
             Working in a team in university, we crafted this visualization in D3.js, with a webserver written in Python. 
             The Stanford Legion Programming system (<a href="https://legion.stanford.edu">https://legion.stanford.edu</a>) is a programming language designed for parallel execution, which makes profiling any program somewhat difficult.
             This visualization takes profiling data output by the programming system, then displays the results in a more digestible visualization, so developers can diagnose issues. 
           </p>
         </div>
+        <div class="col-5"> <img class="img-fluid rounded" src="/assets/LegionVis.png" alt="Stanford Legion Vis"> </div>
+      </div>
+      <div class="row">
+        <div class="col"> <img class="img-fluid rounded" src="/assets/LegionVis.png" alt="PLACEHOLDER"> </div>
         <div class="col">
-          <img class="img-fluid rounded" src="/assets/LegionVis.png" alt="Stanford Legion Vis">
+          <h6 class="display-6">Network Security</h6>
+          <p>
+            For my Network Security class, in a group we made an app where you exchange security keys by scanning QR codes in person and then can send and receive messages securely. 
+            Writing in Swift as we decided on an iOS app, I implemented the heart of the network security side of the app, converting keys to QR codes and back again, then using sockets and AES encryption to encrypt and decrypt the messages.
+          </p>
         </div>
       </div>
     </div>
