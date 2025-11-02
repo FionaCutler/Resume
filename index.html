@@ -23,9 +23,6 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a href="#about" class="nav-link" aria-current="page">About Me</a>
-            </li>
-            <li class="nav-item">
               <a href="#skills" class="nav-link" aria-current="page">Skills</a>
             </li>
             <li class="nav-item">
@@ -50,28 +47,10 @@
         <div class="col my-auto">
           <h1 class="display-1">Fiona Cutler</h1>
           <h6 class="display-6 mb-3">Software Developer</h6>
+          <p>Cum Laude graduate at the University of Utah in Computer Science.</p>
+          <p>Former software engineer at Sorenson Genomics.</p>
           <a class="btn btn-primary me-auto" role="button" href="/assets/FionaResume.pdf">View Resume</a>
         </div>
-      </div>
-    </div>
-    <div class="container vh-100" id="about">
-      <div class="row">
-        <div class="col-6">
-          <h5 class="display-5">About Me</h5>
-          <p>I graduated Cum Laude in Computer Science at the University of Utah, after getting a full ride scholarship
-            due to strong academic performance in high school.
-            Over summer, I interned at a local genetics lab, Sorenson Genomics, and got a job there after I
-            graduated.</p>
-        </div>
-        <div class="col-6"> <img class="img-fluid rounded" src="/assets/Ulogo.png"
-            alt="The University of Utah"></div>
-      </div>
-      <div class="row">
-        <div class="col-6">
-               <img class="img-fluid rounded" src="/assets/sorenson.jpg"
-            alt="Sorenson Genomics">
-        </div>
-        <div class="col-6"> </div>
       </div>
     </div>
     <div class="container vh-100" id="skills">
@@ -121,23 +100,47 @@
         </ul>
       </div>
     </div>
-    </div>
-    <div class="container vh-100" id="projects">
+    </div>    <div class="container vh-100" id="projects">
       <div class="row">
         <div class="col-12">
-          <h1 class="display-1 ">Class Projects</h1>
+          <h2 class="display-2 ">Work Projects</h2>
         </div>
       </div>
       <div class="row mt-5">
         <div class="col-5">
-          <img class="img-fluid rounded" src="/assets/LegionVis.png" alt="PLACEHOLDER">
+          <img class="img-fluid rounded" src="/assets/sorenson.jpg" alt="Sorenson Genomics">
+        </div>
+        <div class="col-7">           
+          <h6 class="display-6">REST API</h6>
+            I wrote a pair of C# servers that are used to ferry data inside the organization, encrypting it with AES. On one end was a REST service that connected to a Wordpress app, and on the other end, a server inside the DMZ.        
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-7">
+          <h6 class="display-6">ASP.NET MVC</h6>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit assumenda ipsum ad hic, recusandae architecto officiis eligendi tenetur aliquid, a, ex ipsa consequuntur eveniet ab totam! Beatae ab cupiditate facilis. 
+          </p>
+        </div>
+        <div class="col-5"> <img class="img-fluid rounded" src="/assets/MVC-Logo.jpg" alt="ASP.NET MVC"> </div>
+      </div>
+          </div>
+    <div class="container vh-100" id="projects">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="display-2">Class Projects</h2>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-5">
+           <img class="img-fluid rounded" src="/assets/Ulogo.png" alt="University of Utah"> 
         </div>
         <div class="col-7">           
           <h6 class="display-6">Machine Learning</h6>
           <p>For the final project in my machine learning class, I decided to see if an algorithm could identify which heavy metal subgenre an album is, using the cover alone. First, I built a web crawler in Ruby, scraping a website of metal albums for art, title, and the listed subgenres, taking care to practice proper web crawler etiquette, limiting requests as it's a small fan-managed website. 
             From there, I used OpenCV, a computer vision library in Java, to extract features from the images similar to the Bag of Words model for text.   
           </p>
-          <p>Finally, I had data with which to run machine learning, so I looked at the literature for appropriate algorithms, as an album can be multiple subgenres, and each individual subgenre is a small fraction. The literature mentioned a variant on support vector machines, and so I implemented it, </p>
+          <p>Finally, I had data with which to run machine learning, so I looked at the literature for appropriate algorithms, as an album can be multiple subgenres, and each individual subgenre is a small fraction. The literature mentioned a variant on support vector machines, and so I implemented it, recording the predictive results on a reserved chunk of data.</p>
         </div>
       </div>
       <div class="row">
@@ -152,8 +155,8 @@
         <div class="col-5"> <img class="img-fluid rounded" src="/assets/LegionVis.png" alt="Stanford Legion Vis"> </div>
       </div>
       <div class="row">
-        <div class="col"> <img class="img-fluid rounded" src="/assets/LegionVis.png" alt="PLACEHOLDER"> </div>
-        <div class="col">
+        <div class="col-4"> <img class="img-fluid rounded" src="/assets/Ulogo.png" alt="University of Utah"> </div>
+        <div class="col-8">
           <h6 class="display-6">Network Security</h6>
           <p>
             For my Network Security class, in a group we made an app where you exchange security keys by scanning QR codes in person and then can send and receive messages securely. 
