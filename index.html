@@ -56,7 +56,8 @@
     </div>
     <div class="container" id="aboutme">
       <div class="row">
-        <div class="col-12 col-md-6 my-auto">
+        <div class="col-12 col-md-6 my-auto order-md-2"><img class="img-fluid rounded" src="/assets/Ulogo.png" alt="University of Utah"></div>
+        <div class="col-12 col-md-6 my-auto order-md-1">
           <h2 class="display-2 mb-3">About Me</h2>
           <p>I graduated Cum Laude in Computer Science at the University of Utah, after getting a full ride scholarship
             due to strong academic performance in high school.
@@ -71,7 +72,6 @@
             symptoms are largely under control. While this has led to a break in my working life, I feel I have
             experienced a lot of personal growth through the experience.</p>
         </div>
-        <div class="col-12 col-md-6 my-auto"><img class="img-fluid rounded" src="/assets/Ulogo.png" alt="University of Utah"></div>
       </div>
     </div>
     <div class="container " id="skills">
@@ -130,13 +130,13 @@
           </div>
       </div>
       <div class="row">
-        <div class="col-12 col-md-8">
+        <div class="col-12 col-md-4 order-md-2"> <img class="img-fluid rounded" src="/assets/MVC-Logo.jpg" alt="ASP.NET MVC"> </div>
+        <div class="col-12 col-md-8 order-md-1">
           <h6 class="display-6">ASP.NET MVC</h6>
           <p>I contributed code to two different ASP.NET MVC 5 applications, working with a team for one and a pair for the other. Design patterns used include Dependency Injection, CQRS, factories, and of course MVC. 
              This also entailed writing some SQL queries to synchronize parts of the database between the two projects.
           </p>
         </div>
-        <div class="col-12 col-md-4"> <img class="img-fluid rounded" src="/assets/MVC-Logo.jpg" alt="ASP.NET MVC"> </div>
       </div>      
       <div class="row">
         <div class="col-12 col-md-4"> <img class="img-fluid rounded" src="/assets/IJ-IDEA.png" alt="IntelliJ IDEA"> </div>
@@ -156,10 +156,10 @@
         </div>
       </div>
       <div class="row mt-5">
-        <div class="col-12 col-md-4">
-
+        <div class="col-12 col-md-4 order-md-2">
+          <img class="img-fluid rounded" src="/assets/Rainbow.jpg" alt="Metal album cover">
         </div>
-        <div class="col-12 col-md-8">           
+        <div class="col-12 col-md-8  order-md-1">           
           <h6 class="display-6">Machine Learning</h6>
           <p>For the final project in my machine learning class, I decided to see if an algorithm could identify which heavy metal subgenre an album is, using the cover alone. First, I built a web crawler in Ruby, scraping a website of metal albums for art, title, and the listed subgenres, taking care to practice proper web crawler etiquette, limiting requests as it's a small fan-managed website. 
             From there, I used OpenCV, a computer vision library in Java, to extract features from the images similar to the Bag of Words model for text.   
@@ -168,7 +168,8 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-12 col-md-7">
+        <div class="col-12 col-md-4"> <img class="img-fluid rounded" src="/assets/LegionVis.png" alt="Stanford Legion Vis"> </div>
+        <div class="col-12 col-md-8">
           <h6 class="display-6">Data Visualization</h6>
           <p>
             Working in a team in university, we crafted this visualization in D3.js, with a webserver written in Python. 
@@ -176,11 +177,10 @@
             This visualization takes profiling data output by the programming system, then displays the results in a more digestible visualization, so developers can diagnose issues. 
           </p>
         </div>
-        <div class="col-12 col-md-5"> <img class="img-fluid rounded" src="/assets/LegionVis.png" alt="Stanford Legion Vis"> </div>
       </div>
       <div class="row">
-        <div class="col-4"> </div>
-        <div class="col-8">
+        <div class="col-4 order-md-2"> </div>
+        <div class="col-12 col-md-8 order-md-1">
           <h6 class="display-6">Network Security</h6>
           <p>
             For my Network Security class, in a group we made an app where you exchange security keys by scanning QR codes in person and then can send and receive messages securely. 
